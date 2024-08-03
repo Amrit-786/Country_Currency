@@ -1,0 +1,32 @@
+.historySection {
+    margin-top: 40px;
+    background-color: var(--card-background);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+  }
+  
+  .title {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  .list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .item {
+    display: inline-block;
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 15px;
+    font-size: 0.9em;
+  }
+  
+  .noHistory {
+    color: #7f8c8d;
+    font-style: italic;
+  }

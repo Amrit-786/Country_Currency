@@ -1,0 +1,36 @@
+.homePage {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: var(--primary-color);
+  }
+  
+  .searchContainer {
+    margin-bottom: 40px;
+  }
+  
+  .sortButtons {
+    margin-bottom: 20px;
+  }
+  
+  .sortButton {
+    margin: 0 10px;
+    background-color: var(--secondary-color);
+  }
+  
+  .countryList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .noResults {
+    font-size: 1.2em;
+    color: #7f8c8d;
+    margin-top: 30px;
+  }

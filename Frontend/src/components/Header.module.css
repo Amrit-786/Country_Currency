@@ -1,0 +1,50 @@
+.header {
+    background-color: var(--primary-color);
+    padding: 20px 0;
+    box-shadow: var(--shadow);
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .navList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navItem {
+    margin-left: 20px;
+  }
+  
+  .navLink {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.3s ease;
+  }
+  
+  .navLink:hover {
+    opacity: 0.8;
+  }
+  
+  .logoutButton {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .logoutButton:hover {
+    background-color: white;
+    color: var(--primary-color);
+  }

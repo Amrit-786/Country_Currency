@@ -1,0 +1,37 @@
+.card {
+    background-color: var(--card-background);
+    border-radius: 10px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .favorite {
+    border: 2px solid var(--secondary-color);
+  }
+  
+  .flag {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+  }
+  
+  .info {
+    font-size: 0.9em;
+    margin-bottom: 5px;
+  }
+  
+  .favoriteButton {
+    margin-top: 10px;
+    background-color: var(--secondary-color);
+  }
